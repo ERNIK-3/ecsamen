@@ -1,0 +1,28 @@
+.info-block, .left-sidebar{
+    display: inline-block;
+    box-sizing: border-box;
+}
+.left-sidebar{
+    width: 20%;
+}
+.left-sidebar img{
+    max-width: 30%;
+}
+.info-block{
+    width: 80%;
+}
+.info-block img{
+    max-width: 10%;
+}
+.block_stack{
+    display: flex;
+    justify-self: center;
+    gap: 15px;
+
+}
+.block_stack img{
+    max-width: 90%;
+}
+.block_text{
+    margin: 45px 0;
+}
